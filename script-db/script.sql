@@ -7,7 +7,6 @@ CREATE DATABASE "LibraryDB"
     TABLESPACE = pg_default
     CONNECTION LIMIT = -1;
 
-
 CREATE TABLE authors (
 	id serial PRIMARY KEY,
 	name text,
